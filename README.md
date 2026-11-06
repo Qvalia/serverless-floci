@@ -129,4 +129,4 @@ The plugin has no runtime dependencies.
 
 ## Licence
 
-GPL-3.0. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).

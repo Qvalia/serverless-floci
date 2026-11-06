@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/Qvalia/serverless-floci#readme",
   "author": "Qvalia",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "engines": {
     "node": ">=18"
   },
