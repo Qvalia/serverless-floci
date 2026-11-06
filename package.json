@@ -1,0 +1,47 @@
+{
+  "name": "serverless-floci",
+  "version": "0.1.0",
+  "description": "Deploy Serverless Framework v4 services to Floci, a local AWS emulator",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "lint": "eslint src test",
+    "lint-fix": "eslint src test --fix"
+  },
+  "keywords": [
+    "serverless",
+    "serverless-framework",
+    "serverless-plugin",
+    "floci",
+    "localstack",
+    "aws",
+    "local",
+    "emulator",
+    "offline"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qvalia/serverless-floci.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qvalia/serverless-floci/issues"
+  },
+  "homepage": "https://github.com/Qvalia/serverless-floci#readme",
+  "author": "Qvalia",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "serverless": ">=4"
+  },
+  "devDependencies": {
+    "eslint": "^9.14.0"
+  }
+}
